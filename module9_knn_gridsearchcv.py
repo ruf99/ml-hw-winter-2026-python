@@ -13,7 +13,6 @@ def main():
     try:
         n_input = int(input("How many training samples (N)? "))
         
-        # Human-style data entry: list-based then convert to Numpy
         train_x = []
         train_y = []
         
